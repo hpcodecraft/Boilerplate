@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+img {
+    border: none;
+}
+
+nav a {
+    margin-right: 1em;
+}
+
+td {
+    margin-bottom: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    width: 100%;
+}
+
+#details_outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(255, 255, 255, .9);
+    display: none;
+}
+
+#details_inner {
+    margin: 1em;
+}
+
+#user_image {
+    width: 40px;
+    float: left;
+    margin-right: 1em;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="media-per-column" content="10" />
+    <meta name="columns-per-page" content="3" />
+    <title>$fullName</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" type="text/css"  />
+  </head>
+  <body>
+
+    <header>
+      <img id="user_image" src="$addressBookImage"/>
+      <h1>$fullName</h1>
+      <h2>Total: $totalItems</h2>
+      <h3>Last update: $publishDate</h3>
+    </header>
+
+    <nav>$shelfNavigation</nav>
+    <nav>$pageNavigation</nav>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <div class="medium"> <!-- div.medium is mandatory, the parser looks for it -->
+              $coverImage160
+              <div class="title">$title</div>
+              <span class="hidden">
+                <span class="creator">$creatorsCompositeString</span>
+                <span class="rating">$rating</span>
+                <span class="description">$primaryDescriptionString</span>
+                <span class="asin">$asin</span>
+                <span class="uuid">$uuidString</span>
+                <span class="netRating">$netRating</span>
+                <a href="$amazonURL">$amazonURL</a>
+                <a href="$amazonAuthorURL">$amazonAuthorURL</a>
+              </span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <nav>$pageNavigation</nav>
+
+    <footer>
+      <a class="monster" href="http://www.delicious-monster.com" target="_blank">
+        <img src="images/monster-small.png" alt="" /> Made with Delicious Library
+      </a>
+      $librarySearchString
+    </footer>
+
+    <div id="details_outer">
+      <div id="details_inner">
+        <div id="rating"></div>
+        <div id="title"></div>
+        <div id="creator"></div>
+        <div id="description"></div>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/library.js"></script>
+  </body>
+</html>
