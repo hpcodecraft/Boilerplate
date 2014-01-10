@@ -2,6 +2,10 @@
 
 A ready-to-use boilerplate for quickly developing your own Delicious Library export templates.
 
+![A fancy screenshot](http://demo.hpcodecraft.me/demo-providencemodern/screenshot-boilerplate.png)
+
+Here´s a [Live Demo](http://demo.hpcodecraft.me/demo-boilerplate/).
+
 ####Installation
 1. Download the .zip file and unzip it.
 2. Copy the folder boilerplate.libraryhtmltemplate to
